@@ -3,3 +3,151 @@
   margin: 0;
   padding: 0;
 }
+/* body */
+body{
+  background-image: url(img/sfondo.png);
+}
+
+/* global conteiner */
+.global-conteiner{
+  width: 100%;
+  height: auto;
+}
+/* header */
+header{
+  /* debug */
+  /* background-color: blue; */
+  height: 250px;
+  /* end debug */
+  width:80%;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header-conteiner */
+.header-conteiner{
+  /* debug */
+  background-color: blue;
+  height: 200px;
+  /* end debug */
+  margin: auto;
+}
+.title{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+}
+.titolo-principale{
+  padding: 10px;
+}
+/* nav */
+nav{
+  /* debug */
+  background-color: red;
+  height: 50px;
+  /* end debug */
+  margin: auto;
+
+}
+/* main */
+main{
+  /* debug */
+  background-color: pink;
+  /* end debug */
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: pink;
+}
+aside{
+  width: 25%;
+  float: left;
+  background-color: green;
+  height: 500px;
+}
+section{
+  width: 50%;
+  float: left;
+  background-color: grey;
+  height: 900px;
+}
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* footer */
+footer{
+  /* debug */
+  /* background-color: blue; */
+  height: 400px;
+  /* end debug */
+  width:80%;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conteiner-information{
+  /* debug */
+  /* background-color: violet; */
+  /* end debug */
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+}
+.recent-posts{
+  width: 20%;
+  float: left;
+  background-color: lightblue;
+  height: 100%;
+}
+.recent-comments{
+  width: 20%;
+  float: left;
+  background-color: brown;
+  height: 100%;
+}
+.categories{
+  width: 20%;
+  float: left;
+  background-color: purple;
+  height: 100%;
+}
+.text-widget{
+  width: 40%;
+  float: left;
+  background-color: lightgreen;
+  height: 100%;
+}
+.conteiner-information::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.sidebar{
+  /* debug */
+  background-color: black;
+  /* end debug */
+  margin-top:0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+}
+.left-information{
+  width: 40%;
+  float: left;
+  background-color: lightblue;
+  height: 50px;
+  margin: 30px;
+}
+.right-information{
+  width: 40%;
+  float: right;
+  background-color: lightblue;
+  height: 50px;
+  margin: 30px;
+}
