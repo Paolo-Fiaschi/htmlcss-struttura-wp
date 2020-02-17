@@ -31,11 +31,17 @@ header{
   height: 200px;
   /* end debug */
   margin: auto;
+  position: relative;
 }
 .title{
   text-align: center;
   color: white;
   border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 .titolo-principale{
   padding: 10px;
